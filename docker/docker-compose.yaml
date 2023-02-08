@@ -49,7 +49,7 @@ services:
       - backend-network
     
   phpmyadmin:
-    image: phpmyadmin
+    image: phpmyadmin:5.2.0-apache
     ports:
       - 8080:80
     environment:
