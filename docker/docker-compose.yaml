@@ -72,7 +72,7 @@ services:
     environment:
       # DOMAINS: 'localhost -> http://prestashop:8080'
       # STAGE: 'local'
-      DOMAINS: 'jrrlprestashop14.ddns.net -> http://prestashop:8080'
+      DOMAINS: '${PRESTASHOP_DOMAIN} -> http://prestashop:8080'
       STAGE: 'production'
     restart: always
     networks: 

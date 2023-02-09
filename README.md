@@ -11,9 +11,9 @@ La estructura del repositorio es la siguiente:
     + inventario
 
   + **playbooks**
-    + delete_docker_compose.yaml
+    + delete_compose.yaml
 
-    + deploy_docker_compose.yaml
+    + deploy_compose.yaml
 
     + install_docker.yaml
 
